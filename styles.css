@@ -78,6 +78,23 @@ ul > .home {
     font-size: 8vh;
 }
 
+.herosubtext {
+    position: absolute;
+    top: 87%; /* Adjust these values to position the text where you want it */
+    left: 50%;
+    transform: translate(-50%, -50%); /* This centers the text in the middle of the hero section */
+    color: white; /* Change the color as needed */
+    text-align: center;
+    font-size: 3vh;
+    font-weight: 350;
+}
+
+.herosubtext:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #e1a1ff;
+}
+
 .primarycta:hover {
     text-decoration: underline;
     cursor: pointer;
