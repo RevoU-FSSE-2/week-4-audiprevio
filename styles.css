@@ -8,6 +8,9 @@ body {
     filter: brightness(45%);
 }
 
+th {
+    cursor: pointer;
+}
 .primarycta {
     border: none;
     text-decoration: underline;
@@ -18,6 +21,19 @@ body {
     padding: 0;
     font-size: 1.25rem;
 }
+
+.primaryctagold  {
+    border: none;
+    text-decoration: underline;
+    background-color: transparent;
+    font-family: 'INCONSOLATA';
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+    color: #fff5d1;
+}
+
 ul {
     display: flex;
     justify-content: center;
@@ -67,6 +83,9 @@ ul > .home {
 }
 .mainbody-specialtwo {
     background-color: #ffffff;
+}
+.mainbody-specialthree {
+    background-color: #b29cff;
 }
 .herotext {
     position: absolute;
@@ -130,6 +149,12 @@ table {
     border-collapse: collapse;
 }
 
+body .specialtextgold {
+    line-height: 1.5rem;
+    max-width: 60vw;
+    color: #fff1bd;
+}   
+
 th, td {
     padding: 10px;
     text-align: left;
@@ -143,6 +168,9 @@ th {
     color: #121212;
     padding-bottom: 1.5rem;
 }
+th:hover {
+    color:#5d1180;
+}
 table img {
     width: 20px; /* Adjust as needed */
     height: 20px; /* Adjust as needed */
@@ -150,6 +178,8 @@ table img {
     align-content: center;
     border-radius: 900px;
 }
+
+
 .h1class {
     width: 45vw;
     line-height: 4vh;   
@@ -161,6 +191,14 @@ table img {
     word-wrap: break-word;
     font-size: 36px;
     margin: 0;
+}
+.h1biggold {
+    width: 45vw;
+    line-height: 4vh;   
+    word-wrap: break-word;
+    font-size: 36px;
+    margin: 0;
+    color: #fff5d1;
 }
 /* media query for h1 make it wider 90vw and taller 9vh */
 .footer {
@@ -244,12 +282,22 @@ table img {
     max-width: 95vw;
 }
 
+
 .h1big {
     width: 75vw;
     line-height: 7vh;
     word-wrap: break-word;
     font-size: 36px;
     margin: 0;
+}
+
+.h1biggold {
+    width: 75vw;
+    line-height: 7vh;
+    word-wrap: break-word;
+    font-size: 36px;
+    margin: 0;
+    color: ##fff1bd;
 }
 
 .footer p, .footer li {
